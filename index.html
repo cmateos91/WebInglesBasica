@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn & Play: Vocabulary Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Learn & Play: Vocabulary Quiz</h1>
+    <div id="quiz-container">
+        <p id="question" class="question-word"></p>
+        <div id="options">
+            <button onclick="checkAnswer(0)"></button>
+            <button onclick="checkAnswer(1)"></button>
+            <button onclick="checkAnswer(2)"></button>
+        </div>
+        <img id="feedbackImage" src="" alt="Feedback" style="display: none; width: 420px; margin-top: 20px;" />
+    </div>
+   
+    <button id="nextButton">Siguiente ➔</button>
+  </div>
+        <p id="score">Score: 0</p>
+        <button id="resetButton" style="display: none;" onclick="resetGame()">Restart</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
